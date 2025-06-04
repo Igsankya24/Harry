@@ -102,7 +102,7 @@ if __name__ == "__main__":
                 audio = r.listen(source, timeout=2, phrase_time_limit=1)
             word = r.recognize_google(audio)
             if(word.lower() == "jarvis"):
-                speak("Ya")
+                speak("Ji Maalik")
                 # Listen for command
                 with sr.Microphone() as source:
                     print("Jarvis Active...")
